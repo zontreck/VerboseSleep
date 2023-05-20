@@ -6,3 +6,4 @@ Makefile
 wait
 CMakeFiles
 cmake-build-debug
+.idea

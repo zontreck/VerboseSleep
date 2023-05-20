@@ -1,3 +1,19 @@
+/*
+ *
+ *              VERBOSE SLEEP
+ *              COPYRIGHT 2023 Tara Piccari
+ *
+ *
+ *              This file is a part of Verbose Sleep (https://github.com/zontreck/VerboseSleep)
+ *              It is Licensed under the GPL v3.
+ *
+ *              Please submit any changes or improvements to the Github in the form of a ticket or a pull request.
+ *
+ *              Thank you.
+ *
+ */
+
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -11,7 +27,8 @@ using namespace this_thread;
 
 int main(int argc, const char *argv[]) {
     if(argc<2){
-        cout << "Verbose Sleep\nCopyright 2023 Tara Piccari\n\n" << argv[0] << " [seconds]\n\n"
+        cout << "Verbose Sleep\nhttps://github.com/zontreck/VerboseSleep\nCopyright 2023 Tara Piccari\n\n" << argv[0] <<
+        " [seconds]\n\n"
 
         << "[seconds]\t\t-\tThe number of seconds to sleep and countdown"
         << endl
